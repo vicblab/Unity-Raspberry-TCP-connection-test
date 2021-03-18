@@ -15,10 +15,13 @@ First of all you will need to install the Raspbian (or similar) operative system
 
 Once you have done that you can plug it in your Raspberry pi, check you have ssh installed in your computer (if you are on windows you can follow this tutorial https://jcutrer.com/windows/install-openssh-on-windows10 and make sure the executable's route is included in your environtment variables), connect an ethernet cable to your Raspberry pi and your PC and power on the board. Then type on the command line "ssh pi@raspberrypi". If that doesn't work try typing "arp -a" and finding the Raspberry's ip, once you find it connect to it by typing *ssh pi@xxxxxxxxxx* (where the Xs are the IP numbers). If that doesn't work try googling or contact me :D 
 
-The next step is to setup a static ip for the Raspberry pi, so it won't change each time you connect it to the router via Ethernet (you could also use wifi, but that won't be covered here). Here is a tutorial on how to set up a static ip on the board: https://pimylifeup.com/raspberry-pi-static-ip-address/#:~:text=First%2C%20you%20have%20to%20decide,assign%20to%20your%20Raspberry%20Pi. Then you will be able to connect to the raspberry with the terminal writing *ssh pi@xxxxxx* (where the Xs are the static IP address). Be careful with the firewall!
+The next step is to setup a static ip for the Raspberry pi, so it won't change each time you connect it to the router via Ethernet (you could also use wifi, but that won't be covered here). Here is a tutorial on how to set up a static ip on the board: https://pimylifeup.com/raspberry-pi-static-ip-address/#:~:text=First%2C%20you%20have%20to%20decide,assign%20to%20your%20Raspberry%20Pi. 
+Then you will be able to connect to the raspberry with the terminal writing *ssh pi@xxxxxx* (where the Xs are the static IP address). Be careful with the firewall!
 
 As a side note make sure your raspberry pi has python3 installed and remember that most problems on linux can be solved with an apt-get install x :^)
+
 Also, for transfering files from your computer to the raspberry and viceversa, I recommend FileZilla: https://filezilla-project.org
+
 Hopefully I mentioned everything!
 
 # LED circuit setup
