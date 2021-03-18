@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "J5Y7N17613003377",
         "name": "com.DefaultCompany.UnityAndroidTCPSocket",
-        "processId": 4798,
+        "processId": 20883,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,12 @@
             "deviceId": "J5Y7N17613003377",
             "name": "com.DefaultCompany.UnityAndroidTCPSocket",
             "processId": 4798,
+            "exited": false
+        },
+        {
+            "deviceId": "J5Y7N17613003377",
+            "name": "com.DefaultCompany.UnityAndroidTCPSocket",
+            "processId": 20883,
             "exited": false
         }
     ],
