@@ -24,6 +24,13 @@ Also, for transfering files from your computer to the raspberry and viceversa, I
 
 Hopefully I mentioned everything!
 
+
+
+
+Author: Víctor Blanco Bataller
+
+Example created for Serious Games Project on Turku University of Applied Sciences, 2021.
+
 # LED circuit setup
 This one is easy: you will only need a red or green LED, a 330 ohm (220 works well as well, a bit more shiny) resitor, a breadboard and your Raspberry. You should connect your GPIO pin 18 to the resistor, the resistor to the LED (make sure the LED's polarity is the right one, you have 50/50 chance if you put it randomly) and the other LED's end to the Raspberry's ground, as shown on the figure:
 
