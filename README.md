@@ -11,7 +11,9 @@
  
  
 # Raspberry pi setup
-First of all you will need to install the Raspbian (or similar) operative system on an SD card. For that, connect the SD card to your computer, install the Raspberry Pi Imager: https://www.raspberrypi.org/software/ and follow these 40 second video for installing the OS on your SD card: https://youtu.be/J024soVgEeM.
+First of all you will need to install the Raspbian (or similar) operative system on an SD card. For that, connect the SD card to your computer, install the Raspberry Pi Imager: https://www.raspberrypi.org/software/ and follow these 40 second video for installing the OS on your SD card: https://youtu.be/J024soVgEeM. 
+
+Inside the root directory create a file with no extension named "ssh".
 
 Once you have done that you can plug it in your Raspberry pi, check you have ssh installed in your computer (if you are on windows you can follow this tutorial https://jcutrer.com/windows/install-openssh-on-windows10 and make sure the executable's route is included in your environtment variables), connect an ethernet cable to your Raspberry pi and your PC and power on the board. Then type on the command line "ssh pi@raspberrypi". If that doesn't work try typing "arp -a" and finding the Raspberry's ip, once you find it connect to it by typing *ssh pi@xxxxxxxxxx* (where the Xs are the IP numbers). If that doesn't work try googling or contact me :D 
 
